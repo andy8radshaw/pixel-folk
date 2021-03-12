@@ -1,3 +1,22 @@
 h1 {
   color: brown;
 }
+
+.grid-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 993px;
+  .pixel-grid {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    div {
+      width: 30px;
+      height: 30px;
+      border: 1px dotted grey;
+      color: transparent;
+    }
+  }
+}
